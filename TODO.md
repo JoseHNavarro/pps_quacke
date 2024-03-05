@@ -4,8 +4,7 @@
 # Lista de tareas
 Completa esta lista para llevar a Quacker al nivel que se merece
 
-### TODO
-- [ ] Aislar el entorno de ejecución de Python y exportar sus dependencias
+### TOD
 - [ ] Crear imagen de Docker
 - [ ] Levantar con contenedor de Mongo
   - [ ] Versión inicial sin variables de entorno
@@ -17,3 +16,4 @@ Completa esta lista para llevar a Quacker al nivel que se merece
 
 ### Hecho ✓
 - [x] Crear la mejor red social del mundo para compartir noticias e ideas
+- [x] Aislar el entorno de ejecución de Python y exportar sus dependencias
