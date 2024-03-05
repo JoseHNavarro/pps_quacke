@@ -8,9 +8,16 @@ Actualmente sin mantenimiento debido al éxito de la competencia. Si quieres hac
   - [TODO.md](TODO.md)
 
 ## Instrucciones de uso
+
 Aplicación desarrollada en Python (v3.11) con Flask como dependencia principal.
 - Antes de nada hay que descargar el entorno: `pip install flask`
 - Lo activamos con `source /bin/venv/activate`
+
+Aplicación desarrollada en Python (v3.11) con Flask y Mongo como dependencias principales. Levanta primero un servidor de Mongo en local.
+
+    docker run -p 27017:27017 -d mongo
+Luego ejecuta la aplicación con
+
     python app.py
 
 Desplegará un servidor web en [http://127.0.0.1:5000](http://127.0.0.1:5000)
