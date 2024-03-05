@@ -9,7 +9,8 @@ Actualmente sin mantenimiento debido al éxito de la competencia. Si quieres hac
 
 ## Instrucciones de uso
 Aplicación desarrollada en Python (v3.11) con Flask como dependencia principal.
-
+- Antes de nada hay que descargar el entorno: `pip install flask`
+- Lo activamos con `source /bin/venv/activate`
     python app.py
 
 Desplegará un servidor web en [http://127.0.0.1:5000](http://127.0.0.1:5000)
